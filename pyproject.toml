@@ -1,0 +1,62 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "invoice-guard"
+version = "0.1.0"
+description = "Local-first invoice compliance auditing: classify, extract, verify and flag. Never approves."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+dependencies = [
+  "openai>=1.40,<3",
+  "PyYAML>=6.0",
+  "pdfplumber>=0.11",
+  "Pillow>=10.0",
+  "reportlab>=4.0",
+  "python-dotenv>=1.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.5", "import-linter>=2.0"]
+ocr = ["pytesseract>=0.3.10"]
+
+[project.scripts]
+invoice-guard = "invoice_guard.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "."]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "B"]
+ignore = ["E501"]
+
+# ---------------------------------------------------------------------------
+# Gora's rule #4 enforced architecturally: no AI-facing layer may import the
+# human approval gate, directly or indirectly. CI fails if this is violated.
+# ---------------------------------------------------------------------------
+[tool.importlinter]
+root_package = "invoice_guard"
+
+[[tool.importlinter.contracts]]
+name = "AI layers cannot reach the human approval gate"
+type = "forbidden"
+source_modules = [
+  "invoice_guard.agents",
+  "invoice_guard.tools",
+  "invoice_guard.checks",
+  "invoice_guard.knowledge",
+  "invoice_guard.llm",
+  "invoice_guard.workflow",
+  "invoice_guard.storage",
+]
+forbidden_modules = ["invoice_guard.governance.human_review"]

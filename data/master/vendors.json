@@ -1,0 +1,33 @@
+[
+  {
+    "vendor_id": "V-NCS",
+    "name": "Najd Computer Supplies Co.",
+    "tax_id": "300123456700003",
+    "registered_emails": [
+      "billing@najd-computers.example",
+      "ar@najd-computers.example"
+    ],
+    "iban": "SA0380000000608010167519",
+    "contract_id": "NCS-2026"
+  },
+  {
+    "vendor_id": "V-RSO",
+    "name": "Red Sea Office Furniture",
+    "tax_id": "310987654300003",
+    "registered_emails": [
+      "invoices@redsea-furniture.example"
+    ],
+    "iban": "SA6310000019284756102938",
+    "contract_id": "RSO-2026"
+  },
+  {
+    "vendor_id": "V-HFM",
+    "name": "Hijaz Facilities Maintenance",
+    "tax_id": "302468013500003",
+    "registered_emails": [
+      "accounts@hijaz-fm.example"
+    ],
+    "iban": "SA7445000077310054826193",
+    "contract_id": "HFM-2026"
+  }
+]

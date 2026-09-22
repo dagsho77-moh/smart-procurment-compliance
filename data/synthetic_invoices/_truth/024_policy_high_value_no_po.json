@@ -1,0 +1,30 @@
+{
+  "file": "024_policy_high_value_no_po.pdf",
+  "file_sha256": "7f4373a9a0a431d766925965c1c86713b42b681231fd0b25ac375ddbd6971a37",
+  "doc_type": "invoice",
+  "scenario": "policy_high_value_no_po",
+  "invoice": {
+    "invoice_number": "HFM-INV-0006",
+    "vendor_name": "Hijaz Facilities Maintenance",
+    "vendor_tax_id": "302468013500003",
+    "invoice_date": "2026-04-11",
+    "due_date": "2026-05-11",
+    "po_number": null,
+    "currency": "SAR",
+    "subtotal": "10800.00",
+    "shipping_fee": "0.00",
+    "tax_amount": "1620.00",
+    "total": "12420.00",
+    "iban": "SA7445000077310054826193",
+    "notes": null,
+    "line_items": [
+      {
+        "sku": "SVC-HVAC-PM",
+        "description": "HVAC preventive maintenance visit",
+        "quantity": 6,
+        "unit_price": "1800.00",
+        "line_total": "10800.00"
+      }
+    ]
+  }
+}

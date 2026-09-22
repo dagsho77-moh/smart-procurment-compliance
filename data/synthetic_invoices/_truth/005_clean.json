@@ -1,0 +1,44 @@
+{
+  "file": "005_clean.pdf",
+  "file_sha256": "71a0e670ca63ee04f018be3c2a5b3ee8712c4ae250e172966283c96e490796e8",
+  "doc_type": "invoice",
+  "scenario": "clean",
+  "invoice": {
+    "invoice_number": "RSO-INV-0002",
+    "vendor_name": "Red Sea Office Furniture",
+    "vendor_tax_id": "310987654300003",
+    "invoice_date": "2026-03-10",
+    "due_date": "2026-04-24",
+    "po_number": "PO-2026-0005",
+    "currency": "SAR",
+    "subtotal": "28666.50",
+    "shipping_fee": "0.00",
+    "tax_amount": "4299.98",
+    "total": "32966.48",
+    "iban": "SA6310000019284756102938",
+    "notes": null,
+    "line_items": [
+      {
+        "sku": "CAB-3D",
+        "description": "Mobile cabinet, 3 drawers",
+        "quantity": 6,
+        "unit_price": "640.25",
+        "line_total": "3841.50"
+      },
+      {
+        "sku": "TBL-MTG-8",
+        "description": "Meeting table, 8 seats",
+        "quantity": 5,
+        "unit_price": "4275.00",
+        "line_total": "21375.00"
+      },
+      {
+        "sku": "CHR-ERGO",
+        "description": "Ergonomic office chair",
+        "quantity": 3,
+        "unit_price": "1150.00",
+        "line_total": "3450.00"
+      }
+    ]
+  }
+}

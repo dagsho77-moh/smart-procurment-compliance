@@ -1,0 +1,260 @@
+[
+  {
+    "grn_number": "GRN-2026-0001",
+    "po_number": "PO-2026-0001",
+    "lines": [
+      {
+        "sku": "DOCK-USB-C",
+        "quantity": 5
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-2026-0002",
+    "po_number": "PO-2026-0002",
+    "lines": [
+      {
+        "sku": "CHR-ERGO",
+        "quantity": 2
+      },
+      {
+        "sku": "DSK-160",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-2026-0003",
+    "po_number": "PO-2026-0003",
+    "lines": [
+      {
+        "sku": "PRT-FILTER",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-2026-0004",
+    "po_number": "PO-2026-0004",
+    "lines": [
+      {
+        "sku": "SSD-1TB",
+        "quantity": 6
+      },
+      {
+        "sku": "DOCK-USB-C",
+        "quantity": 9
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-2026-0005",
+    "po_number": "PO-2026-0005",
+    "lines": [
+      {
+        "sku": "CAB-3D",
+        "quantity": 8
+      },
+      {
+        "sku": "TBL-MTG-8",
+        "quantity": 7
+      },
+      {
+        "sku": "CHR-ERGO",
+        "quantity": 5
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-2026-0006",
+    "po_number": "PO-2026-0006",
+    "lines": [
+      {
+        "sku": "PRT-FILTER",
+        "quantity": 9
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-2026-0007",
+    "po_number": "PO-2026-0007",
+    "lines": [
+      {
+        "sku": "SSD-1TB",
+        "quantity": 10
+      },
+      {
+        "sku": "LAP-14-PRO",
+        "quantity": 4
+      },
+      {
+        "sku": "DOCK-USB-C",
+        "quantity": 9
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-2026-0008",
+    "po_number": "PO-2026-0008",
+    "lines": [
+      {
+        "sku": "CHR-ERGO",
+        "quantity": 1
+      },
+      {
+        "sku": "DSK-160",
+        "quantity": 4
+      },
+      {
+        "sku": "CAB-3D",
+        "quantity": 5
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-2026-0009",
+    "po_number": "PO-2026-0009",
+    "lines": [
+      {
+        "sku": "LAP-14-PRO",
+        "quantity": 5
+      },
+      {
+        "sku": "SSD-1TB",
+        "quantity": 2
+      },
+      {
+        "sku": "DOCK-USB-C",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-2026-0010",
+    "po_number": "PO-2026-0010",
+    "lines": [
+      {
+        "sku": "CHR-ERGO",
+        "quantity": 7
+      },
+      {
+        "sku": "TBL-MTG-8",
+        "quantity": 5
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-2026-0011",
+    "po_number": "PO-2026-0011",
+    "lines": [
+      {
+        "sku": "SVC-HVAC-PM",
+        "quantity": 4
+      },
+      {
+        "sku": "PRT-FILTER",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-2026-0012",
+    "po_number": "PO-2026-0012",
+    "lines": [
+      {
+        "sku": "MON-27-4K",
+        "quantity": 2
+      },
+      {
+        "sku": "LAP-14-PRO",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-2026-0013",
+    "po_number": "PO-2026-0013",
+    "lines": [
+      {
+        "sku": "DSK-160",
+        "quantity": 8
+      },
+      {
+        "sku": "CAB-3D",
+        "quantity": 7
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-2026-0014",
+    "po_number": "PO-2026-0014",
+    "lines": [
+      {
+        "sku": "SVC-ELEC-HR",
+        "quantity": 4
+      },
+      {
+        "sku": "SVC-PLUMB-HR",
+        "quantity": 7
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-2026-0015",
+    "po_number": "PO-2026-0015",
+    "lines": [
+      {
+        "sku": "CHR-ERGO",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-2026-0016",
+    "po_number": "PO-2026-0016",
+    "lines": [
+      {
+        "sku": "SVC-PLUMB-HR",
+        "quantity": 8
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-2026-0017",
+    "po_number": "PO-2026-0017",
+    "lines": [
+      {
+        "sku": "DOCK-USB-C",
+        "quantity": 5
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-2026-0018",
+    "po_number": "PO-2026-0018",
+    "lines": [
+      {
+        "sku": "CAB-3D",
+        "quantity": 3
+      },
+      {
+        "sku": "CHR-ERGO",
+        "quantity": 8
+      },
+      {
+        "sku": "DSK-160",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "grn_number": "GRN-2026-0019",
+    "po_number": "PO-2026-0019",
+    "lines": [
+      {
+        "sku": "LAP-14-PRO",
+        "quantity": 4
+      }
+    ]
+  }
+]

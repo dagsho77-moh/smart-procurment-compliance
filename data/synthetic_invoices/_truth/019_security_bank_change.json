@@ -1,0 +1,30 @@
+{
+  "file": "019_security_bank_change.pdf",
+  "file_sha256": "bc05165ab2d31173290a70414a3b5af4a393d9acfaa728cc471d4db03b8548d8",
+  "doc_type": "invoice",
+  "scenario": "security_bank_change",
+  "invoice": {
+    "invoice_number": "RSO-INV-0006",
+    "vendor_name": "Red Sea Office Furniture",
+    "vendor_tax_id": "310987654300003",
+    "invoice_date": "2026-04-01",
+    "due_date": "2026-05-16",
+    "po_number": "PO-2026-0015",
+    "currency": "SAR",
+    "subtotal": "3450.00",
+    "shipping_fee": "150.00",
+    "tax_amount": "540.00",
+    "total": "4140.00",
+    "iban": "SA7565000044419283746510",
+    "notes": null,
+    "line_items": [
+      {
+        "sku": "CHR-ERGO",
+        "description": "Ergonomic office chair",
+        "quantity": 3,
+        "unit_price": "1150.00",
+        "line_total": "3450.00"
+      }
+    ]
+  }
+}

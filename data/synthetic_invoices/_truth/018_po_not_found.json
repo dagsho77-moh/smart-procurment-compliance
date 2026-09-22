@@ -1,0 +1,51 @@
+{
+  "file": "018_po_not_found.pdf",
+  "file_sha256": "281252f46876382d12c86bd962c59fad0a472fd987736ec6f20d240f41bbcd66",
+  "doc_type": "invoice",
+  "scenario": "po_not_found",
+  "invoice": {
+    "invoice_number": "NCS-INV-0006",
+    "vendor_name": "Najd Computer Supplies Co.",
+    "vendor_tax_id": "300123456700003",
+    "invoice_date": "2026-03-30",
+    "due_date": "2026-05-29",
+    "po_number": "PO-2026-9999",
+    "currency": "SAR",
+    "subtotal": "13294.73",
+    "shipping_fee": "0.00",
+    "tax_amount": "1994.21",
+    "total": "15288.94",
+    "iban": "SA0380000000608010167519",
+    "notes": null,
+    "line_items": [
+      {
+        "sku": "SSD-1TB",
+        "description": "NVMe SSD 1TB",
+        "quantity": 3,
+        "unit_price": "349.75",
+        "line_total": "1049.25"
+      },
+      {
+        "sku": "MON-27-4K",
+        "description": "Monitor 27in 4K",
+        "quantity": 8,
+        "unit_price": "1450.00",
+        "line_total": "11600.00"
+      },
+      {
+        "sku": "KB-MS-AR",
+        "description": "Keyboard & mouse set (Arabic layout)",
+        "quantity": 2,
+        "unit_price": "129.99",
+        "line_total": "259.98"
+      },
+      {
+        "sku": "DOCK-USB-C",
+        "description": "USB-C docking station",
+        "quantity": 1,
+        "unit_price": "385.50",
+        "line_total": "385.50"
+      }
+    ]
+  }
+}

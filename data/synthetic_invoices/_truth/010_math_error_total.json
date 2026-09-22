@@ -1,0 +1,37 @@
+{
+  "file": "010_math_error_total.pdf",
+  "file_sha256": "16754623e17c54e0301c2abb81529563785c83b8ab3dec582bc81fa3ad705a36",
+  "doc_type": "invoice",
+  "scenario": "math_error_total",
+  "invoice": {
+    "invoice_number": "RSO-INV-0004",
+    "vendor_name": "Red Sea Office Furniture",
+    "vendor_tax_id": "310987654300003",
+    "invoice_date": "2026-03-20",
+    "due_date": "2026-05-04",
+    "po_number": "PO-2026-0010",
+    "currency": "SAR",
+    "subtotal": "29425.00",
+    "shipping_fee": "0.00",
+    "tax_amount": "4413.75",
+    "total": "33988.75",
+    "iban": "SA6310000019284756102938",
+    "notes": null,
+    "line_items": [
+      {
+        "sku": "CHR-ERGO",
+        "description": "Ergonomic office chair",
+        "quantity": 7,
+        "unit_price": "1150.00",
+        "line_total": "8050.00"
+      },
+      {
+        "sku": "TBL-MTG-8",
+        "description": "Meeting table, 8 seats",
+        "quantity": 5,
+        "unit_price": "4275.00",
+        "line_total": "21375.00"
+      }
+    ]
+  }
+}

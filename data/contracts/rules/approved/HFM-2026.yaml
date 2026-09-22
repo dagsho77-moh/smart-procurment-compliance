@@ -1,0 +1,29 @@
+status: APPROVED
+vendor_id: V-HFM
+contract_id: HFM-2026
+effective_from: 2026-01-01
+effective_to: 2026-12-31
+reviewed_by: finance.analyst@company.example
+rules:
+  - id: no_callout_or_shipping_fees
+    type: max_charge
+    target: shipping_fee
+    max_amount: 0.00
+    severity: WARNING
+    source: {clause: "§3.2", page: 2, text: "No transport, shipping or call-out fee may be invoiced."}
+  - id: payment_terms
+    type: payment_terms_days
+    expected_days: 30
+    severity: WARNING
+    source: {clause: "§3.1", page: 2, text: "payable within thirty (30) days of the invoice date"}
+  - id: hvac_visit_price_cap
+    type: unit_price_cap
+    sku: SVC-HVAC-PM
+    max_unit_price: 1980.00
+    severity: WARNING
+    source: {clause: "Annex B", page: 5, text: "maximum SAR 1,980.00 per visit"}
+  - id: currency_sar
+    type: currency
+    expected: SAR
+    severity: WARNING
+    source: {clause: "Annex B", page: 5, text: "HVAC preventive maintenance visit SVC-HVAC-PM: SAR 1,800.00"}

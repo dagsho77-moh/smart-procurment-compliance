@@ -1,0 +1,37 @@
+{
+  "file": "017_po_partial_receipt.pdf",
+  "file_sha256": "09bc4e423672e816c1154028c893b5a4de7b5d3a0d85b8f8f55fb71f8f0f7562",
+  "doc_type": "invoice",
+  "scenario": "po_partial_receipt",
+  "invoice": {
+    "invoice_number": "HFM-INV-0004",
+    "vendor_name": "Hijaz Facilities Maintenance",
+    "vendor_tax_id": "302468013500003",
+    "invoice_date": "2026-03-28",
+    "due_date": "2026-04-27",
+    "po_number": "PO-2026-0014",
+    "currency": "SAR",
+    "subtotal": "1815.00",
+    "shipping_fee": "0.00",
+    "tax_amount": "272.25",
+    "total": "2087.25",
+    "iban": "SA7445000077310054826193",
+    "notes": null,
+    "line_items": [
+      {
+        "sku": "SVC-ELEC-HR",
+        "description": "Electrician, per hour",
+        "quantity": 6,
+        "unit_price": "145.00",
+        "line_total": "870.00"
+      },
+      {
+        "sku": "SVC-PLUMB-HR",
+        "description": "Plumber, per hour",
+        "quantity": 7,
+        "unit_price": "135.00",
+        "line_total": "945.00"
+      }
+    ]
+  }
+}

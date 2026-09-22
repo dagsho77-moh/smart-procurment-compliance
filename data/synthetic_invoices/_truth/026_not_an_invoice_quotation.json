@@ -1,0 +1,7 @@
+{
+  "file": "026_not_an_invoice_quotation.pdf",
+  "file_sha256": "f164e40ceafcda83396056bb361da31e1ad71751b909af1e3d0c0b30477c42b0",
+  "doc_type": "quotation",
+  "scenario": "not_an_invoice_quotation",
+  "invoice": null
+}

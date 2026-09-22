@@ -1,0 +1,106 @@
+{
+  "001_clean.pdf": {
+    "sender_email": "billing@najd-computers.example",
+    "submitted_by": "procurement.clerk@company.example"
+  },
+  "002_clean.pdf": {
+    "sender_email": "invoices@redsea-furniture.example",
+    "submitted_by": "procurement.clerk@company.example"
+  },
+  "003_clean.pdf": {
+    "sender_email": "accounts@hijaz-fm.example",
+    "submitted_by": "procurement.clerk@company.example"
+  },
+  "004_clean_photo.jpg": {
+    "sender_email": "billing@najd-computers.example",
+    "submitted_by": "procurement.clerk@company.example"
+  },
+  "005_clean.pdf": {
+    "sender_email": "invoices@redsea-furniture.example",
+    "submitted_by": "procurement.clerk@company.example"
+  },
+  "006_clean_photo.jpg": {
+    "sender_email": "accounts@hijaz-fm.example",
+    "submitted_by": "procurement.clerk@company.example"
+  },
+  "007_clean.pdf": {
+    "sender_email": "billing@najd-computers.example",
+    "submitted_by": "procurement.clerk@company.example"
+  },
+  "008_clean.pdf": {
+    "sender_email": "invoices@redsea-furniture.example",
+    "submitted_by": "procurement.clerk@company.example"
+  },
+  "009_rounding_only.pdf": {
+    "sender_email": "ar@najd-computers.example",
+    "submitted_by": "procurement.clerk@company.example"
+  },
+  "010_math_error_total.pdf": {
+    "sender_email": "invoices@redsea-furniture.example",
+    "submitted_by": "procurement.clerk@company.example"
+  },
+  "011_math_error_line.pdf": {
+    "sender_email": "accounts@hijaz-fm.example",
+    "submitted_by": "procurement.clerk@company.example"
+  },
+  "012_duplicate_exact_file.pdf": {
+    "sender_email": "billing@najd-computers.example",
+    "submitted_by": "procurement.clerk@company.example"
+  },
+  "013_duplicate_resubmitted.pdf": {
+    "sender_email": "invoices@redsea-furniture.example",
+    "submitted_by": "procurement.clerk@company.example"
+  },
+  "014_duplicate_suspected.pdf": {
+    "sender_email": "accounts@hijaz-fm.example",
+    "submitted_by": "procurement.clerk@company.example"
+  },
+  "015_po_price_mismatch.pdf": {
+    "sender_email": "billing@najd-computers.example",
+    "submitted_by": "procurement.clerk@company.example"
+  },
+  "016_po_over_quantity.pdf": {
+    "sender_email": "invoices@redsea-furniture.example",
+    "submitted_by": "procurement.clerk@company.example"
+  },
+  "017_po_partial_receipt.pdf": {
+    "sender_email": "accounts@hijaz-fm.example",
+    "submitted_by": "procurement.clerk@company.example"
+  },
+  "018_po_not_found.pdf": {
+    "sender_email": "billing@najd-computers.example",
+    "submitted_by": "procurement.clerk@company.example"
+  },
+  "019_security_bank_change.pdf": {
+    "sender_email": "invoices@redsea-furniture.example",
+    "submitted_by": "procurement.clerk@company.example"
+  },
+  "020_security_unregistered_sender.pdf": {
+    "sender_email": "hijaz.fm.accounts@free-mail.example",
+    "submitted_by": "procurement.clerk@company.example"
+  },
+  "021_security_unknown_vendor.pdf": {
+    "sender_email": "sales@gulf-premium.example",
+    "submitted_by": "procurement.clerk@company.example"
+  },
+  "022_contract_shipping_charged.pdf": {
+    "sender_email": "billing@najd-computers.example",
+    "submitted_by": "procurement.clerk@company.example"
+  },
+  "023_contract_payment_terms.pdf": {
+    "sender_email": "invoices@redsea-furniture.example",
+    "submitted_by": "procurement.clerk@company.example"
+  },
+  "024_policy_high_value_no_po.pdf": {
+    "sender_email": "accounts@hijaz-fm.example",
+    "submitted_by": "procurement.clerk@company.example"
+  },
+  "025_prompt_injection.pdf": {
+    "sender_email": "billing@najd-computers.example",
+    "submitted_by": "procurement.clerk@company.example"
+  },
+  "026_not_an_invoice_quotation.pdf": {
+    "sender_email": "invoices@redsea-furniture.example",
+    "submitted_by": "procurement.clerk@company.example"
+  }
+}

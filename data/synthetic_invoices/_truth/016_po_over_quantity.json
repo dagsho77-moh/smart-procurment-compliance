@@ -1,0 +1,37 @@
+{
+  "file": "016_po_over_quantity.pdf",
+  "file_sha256": "565a9a9dd8c5bbd08f7161b5d036a76fc48aa8c1938fcf2a0dd21a03f619d65d",
+  "doc_type": "invoice",
+  "scenario": "po_over_quantity",
+  "invoice": {
+    "invoice_number": "RSO-INV-0005",
+    "vendor_name": "Red Sea Office Furniture",
+    "vendor_tax_id": "310987654300003",
+    "invoice_date": "2026-03-26",
+    "due_date": "2026-05-10",
+    "po_number": "PO-2026-0013",
+    "currency": "SAR",
+    "subtotal": "25271.75",
+    "shipping_fee": "150.00",
+    "tax_amount": "3813.26",
+    "total": "29235.01",
+    "iban": "SA6310000019284756102938",
+    "notes": null,
+    "line_items": [
+      {
+        "sku": "DSK-160",
+        "description": "Desk 160cm, oak finish",
+        "quantity": 11,
+        "unit_price": "1890.00",
+        "line_total": "20790.00"
+      },
+      {
+        "sku": "CAB-3D",
+        "description": "Mobile cabinet, 3 drawers",
+        "quantity": 7,
+        "unit_price": "640.25",
+        "line_total": "4481.75"
+      }
+    ]
+  }
+}

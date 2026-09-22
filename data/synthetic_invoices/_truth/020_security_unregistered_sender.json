@@ -1,0 +1,30 @@
+{
+  "file": "020_security_unregistered_sender.pdf",
+  "file_sha256": "204b7c44bcdb69468b85a95e35b72a3164a1a88b683d682a0e0850b675900dc1",
+  "doc_type": "invoice",
+  "scenario": "security_unregistered_sender",
+  "invoice": {
+    "invoice_number": "HFM-INV-0005",
+    "vendor_name": "Hijaz Facilities Maintenance",
+    "vendor_tax_id": "302468013500003",
+    "invoice_date": "2026-04-03",
+    "due_date": "2026-05-03",
+    "po_number": "PO-2026-0016",
+    "currency": "SAR",
+    "subtotal": "1080.00",
+    "shipping_fee": "0.00",
+    "tax_amount": "162.00",
+    "total": "1242.00",
+    "iban": "SA7445000077310054826193",
+    "notes": null,
+    "line_items": [
+      {
+        "sku": "SVC-PLUMB-HR",
+        "description": "Plumber, per hour",
+        "quantity": 8,
+        "unit_price": "135.00",
+        "line_total": "1080.00"
+      }
+    ]
+  }
+}

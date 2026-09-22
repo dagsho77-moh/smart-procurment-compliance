@@ -1,0 +1,30 @@
+{
+  "file": "006_clean_photo.jpg",
+  "file_sha256": "55b112d34fc75c1ee6139e346fa8873de18c8ba3bacbbb83132c67e48502dbf6",
+  "doc_type": "invoice",
+  "scenario": "clean_photo",
+  "invoice": {
+    "invoice_number": "HFM-INV-0002",
+    "vendor_name": "Hijaz Facilities Maintenance",
+    "vendor_tax_id": "302468013500003",
+    "invoice_date": "2026-03-12",
+    "due_date": "2026-04-11",
+    "po_number": "PO-2026-0006",
+    "currency": "SAR",
+    "subtotal": "1486.80",
+    "shipping_fee": "0.00",
+    "tax_amount": "223.02",
+    "total": "1709.82",
+    "iban": "SA7445000077310054826193",
+    "notes": null,
+    "line_items": [
+      {
+        "sku": "PRT-FILTER",
+        "description": "HVAC filter set",
+        "quantity": 7,
+        "unit_price": "212.40",
+        "line_total": "1486.80"
+      }
+    ]
+  }
+}

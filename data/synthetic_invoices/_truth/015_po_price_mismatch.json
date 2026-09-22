@@ -1,0 +1,37 @@
+{
+  "file": "015_po_price_mismatch.pdf",
+  "file_sha256": "f3a8494454261366077515afb2d42603a6ef8a9190158b73074be6240b78b005",
+  "doc_type": "invoice",
+  "scenario": "po_price_mismatch",
+  "invoice": {
+    "invoice_number": "NCS-INV-0005",
+    "vendor_name": "Najd Computer Supplies Co.",
+    "vendor_tax_id": "300123456700003",
+    "invoice_date": "2026-03-24",
+    "due_date": "2026-05-23",
+    "po_number": "PO-2026-0012",
+    "currency": "SAR",
+    "subtotal": "23932.00",
+    "shipping_fee": "0.00",
+    "tax_amount": "3589.80",
+    "total": "27521.80",
+    "iban": "SA0380000000608010167519",
+    "notes": null,
+    "line_items": [
+      {
+        "sku": "MON-27-4K",
+        "description": "Monitor 27in 4K",
+        "quantity": 2,
+        "unit_price": "1566.00",
+        "line_total": "3132.00"
+      },
+      {
+        "sku": "LAP-14-PRO",
+        "description": "Laptop 14in Pro, 32GB RAM",
+        "quantity": 4,
+        "unit_price": "5200.00",
+        "line_total": "20800.00"
+      }
+    ]
+  }
+}

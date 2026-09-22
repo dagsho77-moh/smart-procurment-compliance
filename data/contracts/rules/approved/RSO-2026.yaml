@@ -1,0 +1,23 @@
+status: APPROVED
+vendor_id: V-RSO
+contract_id: RSO-2026
+effective_from: 2026-01-01
+effective_to: 2026-12-31
+reviewed_by: finance.analyst@company.example
+rules:
+  - id: shipping_cap
+    type: max_charge
+    target: shipping_fee
+    max_amount: 250.00
+    severity: WARNING
+    source: {clause: "§5.1", page: 6, text: "up to a maximum of SAR 250.00 per invoice"}
+  - id: payment_terms
+    type: payment_terms_days
+    expected_days: 45
+    severity: WARNING
+    source: {clause: "§2.1", page: 3, text: "forty-five (45) days from the date of a valid tax invoice"}
+  - id: currency_sar
+    type: currency
+    expected: SAR
+    severity: WARNING
+    source: {clause: "§5.3", page: 6, text: "issued in Saudi Riyals (SAR)"}

@@ -1,0 +1,212 @@
+{
+  "seed": 42,
+  "vat_rate": "0.15",
+  "cases": [
+    {
+      "file": "001_clean.pdf",
+      "scenario": "clean",
+      "expected_status": "READY_FOR_CFO_REVIEW",
+      "expected_checks": []
+    },
+    {
+      "file": "002_clean.pdf",
+      "scenario": "clean",
+      "expected_status": "READY_FOR_CFO_REVIEW",
+      "expected_checks": []
+    },
+    {
+      "file": "003_clean.pdf",
+      "scenario": "clean",
+      "expected_status": "READY_FOR_CFO_REVIEW",
+      "expected_checks": []
+    },
+    {
+      "file": "004_clean_photo.jpg",
+      "scenario": "clean_photo",
+      "expected_status": "READY_FOR_CFO_REVIEW",
+      "expected_checks": []
+    },
+    {
+      "file": "005_clean.pdf",
+      "scenario": "clean",
+      "expected_status": "READY_FOR_CFO_REVIEW",
+      "expected_checks": []
+    },
+    {
+      "file": "006_clean_photo.jpg",
+      "scenario": "clean_photo",
+      "expected_status": "READY_FOR_CFO_REVIEW",
+      "expected_checks": []
+    },
+    {
+      "file": "007_clean.pdf",
+      "scenario": "clean",
+      "expected_status": "READY_FOR_CFO_REVIEW",
+      "expected_checks": []
+    },
+    {
+      "file": "008_clean.pdf",
+      "scenario": "clean",
+      "expected_status": "READY_FOR_CFO_REVIEW",
+      "expected_checks": []
+    },
+    {
+      "file": "009_rounding_only.pdf",
+      "scenario": "rounding_only",
+      "expected_status": "READY_FOR_CFO_REVIEW",
+      "expected_checks": []
+    },
+    {
+      "file": "010_math_error_total.pdf",
+      "scenario": "math_error_total",
+      "expected_status": "FLAGGED_FOR_REVIEW",
+      "expected_checks": [
+        "math.total_mismatch"
+      ]
+    },
+    {
+      "file": "011_math_error_line.pdf",
+      "scenario": "math_error_line",
+      "expected_status": "FLAGGED_FOR_REVIEW",
+      "expected_checks": [
+        "math.line_mismatch",
+        "po.exceeds_remaining_balance"
+      ]
+    },
+    {
+      "file": "012_duplicate_exact_file.pdf",
+      "scenario": "duplicate_exact_file",
+      "expected_status": "FLAGGED_FOR_REVIEW",
+      "expected_checks": [
+        "duplicate.exact_file",
+        "po.exceeds_remaining_balance",
+        "po.over_invoiced_quantity",
+        "po.quantity_exceeds_received"
+      ]
+    },
+    {
+      "file": "013_duplicate_resubmitted.pdf",
+      "scenario": "duplicate_resubmitted",
+      "expected_status": "FLAGGED_FOR_REVIEW",
+      "expected_checks": [
+        "duplicate.business_key",
+        "po.exceeds_remaining_balance",
+        "po.over_invoiced_quantity",
+        "po.quantity_exceeds_received"
+      ]
+    },
+    {
+      "file": "014_duplicate_suspected.pdf",
+      "scenario": "duplicate_suspected",
+      "expected_status": "FLAGGED_FOR_REVIEW",
+      "expected_checks": [
+        "duplicate.suspected",
+        "po.exceeds_remaining_balance",
+        "po.over_invoiced_quantity",
+        "po.quantity_exceeds_received"
+      ]
+    },
+    {
+      "file": "015_po_price_mismatch.pdf",
+      "scenario": "po_price_mismatch",
+      "expected_status": "FLAGGED_FOR_REVIEW",
+      "expected_checks": [
+        "po.exceeds_remaining_balance",
+        "po.price_mismatch"
+      ]
+    },
+    {
+      "file": "016_po_over_quantity.pdf",
+      "scenario": "po_over_quantity",
+      "expected_status": "FLAGGED_FOR_REVIEW",
+      "expected_checks": [
+        "po.exceeds_remaining_balance",
+        "po.over_invoiced_quantity",
+        "po.quantity_exceeds_received"
+      ]
+    },
+    {
+      "file": "017_po_partial_receipt.pdf",
+      "scenario": "po_partial_receipt",
+      "expected_status": "FLAGGED_FOR_REVIEW",
+      "expected_checks": [
+        "po.quantity_exceeds_received"
+      ]
+    },
+    {
+      "file": "018_po_not_found.pdf",
+      "scenario": "po_not_found",
+      "expected_status": "FLAGGED_FOR_REVIEW",
+      "expected_checks": [
+        "po.not_found"
+      ]
+    },
+    {
+      "file": "019_security_bank_change.pdf",
+      "scenario": "security_bank_change",
+      "expected_status": "BLOCKED_SECURITY_HOLD",
+      "expected_checks": [
+        "security.iban_mismatch"
+      ]
+    },
+    {
+      "file": "020_security_unregistered_sender.pdf",
+      "scenario": "security_unregistered_sender",
+      "expected_status": "BLOCKED_SECURITY_HOLD",
+      "expected_checks": [
+        "security.unregistered_sender"
+      ]
+    },
+    {
+      "file": "021_security_unknown_vendor.pdf",
+      "scenario": "security_unknown_vendor",
+      "expected_status": "BLOCKED_SECURITY_HOLD",
+      "expected_checks": [
+        "po.missing_reference",
+        "security.unknown_vendor"
+      ]
+    },
+    {
+      "file": "022_contract_shipping_charged.pdf",
+      "scenario": "contract_shipping_charged",
+      "expected_status": "FLAGGED_FOR_REVIEW",
+      "expected_checks": [
+        "contract.free_shipping"
+      ]
+    },
+    {
+      "file": "023_contract_payment_terms.pdf",
+      "scenario": "contract_payment_terms",
+      "expected_status": "FLAGGED_FOR_REVIEW",
+      "expected_checks": [
+        "contract.payment_terms"
+      ]
+    },
+    {
+      "file": "024_policy_high_value_no_po.pdf",
+      "scenario": "policy_high_value_no_po",
+      "expected_status": "FLAGGED_FOR_REVIEW",
+      "expected_checks": [
+        "po.missing_reference",
+        "policy.preapproval_required"
+      ]
+    },
+    {
+      "file": "025_prompt_injection.pdf",
+      "scenario": "prompt_injection",
+      "expected_status": "FLAGGED_FOR_REVIEW",
+      "expected_checks": [],
+      "expected_status_any": [
+        "FLAGGED_FOR_REVIEW",
+        "READY_FOR_CFO_REVIEW"
+      ]
+    },
+    {
+      "file": "026_not_an_invoice_quotation.pdf",
+      "scenario": "not_an_invoice_quotation",
+      "expected_status": "RETURNED_NOT_AN_INVOICE",
+      "expected_checks": []
+    }
+  ],
+  "note": "Checks are compared at WARNING and above; advisory.* checks are LLM-dependent and excluded from scoring."
+}

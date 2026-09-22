@@ -1,0 +1,37 @@
+{
+  "file": "002_clean.pdf",
+  "file_sha256": "3ea8344dfc11a0e46105d1f57d2b3386f06627738ea7320ace24bb209138f9d8",
+  "doc_type": "invoice",
+  "scenario": "clean",
+  "invoice": {
+    "invoice_number": "RSO-INV-0001",
+    "vendor_name": "Red Sea Office Furniture",
+    "vendor_tax_id": "310987654300003",
+    "invoice_date": "2026-03-04",
+    "due_date": "2026-04-18",
+    "po_number": "PO-2026-0002",
+    "currency": "SAR",
+    "subtotal": "6080.00",
+    "shipping_fee": "150.00",
+    "tax_amount": "934.50",
+    "total": "7164.50",
+    "iban": "SA6310000019284756102938",
+    "notes": null,
+    "line_items": [
+      {
+        "sku": "CHR-ERGO",
+        "description": "Ergonomic office chair",
+        "quantity": 2,
+        "unit_price": "1150.00",
+        "line_total": "2300.00"
+      },
+      {
+        "sku": "DSK-160",
+        "description": "Desk 160cm, oak finish",
+        "quantity": 2,
+        "unit_price": "1890.00",
+        "line_total": "3780.00"
+      }
+    ]
+  }
+}

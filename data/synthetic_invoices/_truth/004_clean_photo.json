@@ -1,0 +1,37 @@
+{
+  "file": "004_clean_photo.jpg",
+  "file_sha256": "a6b6908fb7213167ca8888b632d96961b28a2290ab0e42ccfcb933e9afe81087",
+  "doc_type": "invoice",
+  "scenario": "clean_photo",
+  "invoice": {
+    "invoice_number": "NCS-INV-0002",
+    "vendor_name": "Najd Computer Supplies Co.",
+    "vendor_tax_id": "300123456700003",
+    "invoice_date": "2026-03-08",
+    "due_date": "2026-05-07",
+    "po_number": "PO-2026-0004",
+    "currency": "SAR",
+    "subtotal": "4097.50",
+    "shipping_fee": "0.00",
+    "tax_amount": "614.63",
+    "total": "4712.13",
+    "iban": "SA0380000000608010167519",
+    "notes": null,
+    "line_items": [
+      {
+        "sku": "SSD-1TB",
+        "description": "NVMe SSD 1TB",
+        "quantity": 4,
+        "unit_price": "349.75",
+        "line_total": "1399.00"
+      },
+      {
+        "sku": "DOCK-USB-C",
+        "description": "USB-C docking station",
+        "quantity": 7,
+        "unit_price": "385.50",
+        "line_total": "2698.50"
+      }
+    ]
+  }
+}

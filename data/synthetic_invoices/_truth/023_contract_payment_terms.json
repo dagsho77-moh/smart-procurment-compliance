@@ -1,0 +1,44 @@
+{
+  "file": "023_contract_payment_terms.pdf",
+  "file_sha256": "5331437e64749bd55bc646c34d5972722cd7c74106e16ad166ae74634cc34935",
+  "doc_type": "invoice",
+  "scenario": "contract_payment_terms",
+  "invoice": {
+    "invoice_number": "RSO-INV-0007",
+    "vendor_name": "Red Sea Office Furniture",
+    "vendor_tax_id": "310987654300003",
+    "invoice_date": "2026-04-09",
+    "due_date": "2026-04-24",
+    "po_number": "PO-2026-0018",
+    "currency": "SAR",
+    "subtotal": "13010.75",
+    "shipping_fee": "150.00",
+    "tax_amount": "1974.11",
+    "total": "15134.86",
+    "iban": "SA6310000019284756102938",
+    "notes": null,
+    "line_items": [
+      {
+        "sku": "CAB-3D",
+        "description": "Mobile cabinet, 3 drawers",
+        "quantity": 3,
+        "unit_price": "640.25",
+        "line_total": "1920.75"
+      },
+      {
+        "sku": "CHR-ERGO",
+        "description": "Ergonomic office chair",
+        "quantity": 8,
+        "unit_price": "1150.00",
+        "line_total": "9200.00"
+      },
+      {
+        "sku": "DSK-160",
+        "description": "Desk 160cm, oak finish",
+        "quantity": 1,
+        "unit_price": "1890.00",
+        "line_total": "1890.00"
+      }
+    ]
+  }
+}

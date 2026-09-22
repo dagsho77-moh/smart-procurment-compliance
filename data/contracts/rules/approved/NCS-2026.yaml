@@ -1,0 +1,36 @@
+# Human-approved executable rules for contract NCS-2026 (drafted, then reviewed by a person).
+status: APPROVED
+vendor_id: V-NCS
+contract_id: NCS-2026
+effective_from: 2026-01-01
+effective_to: 2026-12-31
+reviewed_by: finance.analyst@company.example
+rules:
+  - id: free_shipping
+    type: max_charge
+    target: shipping_fee
+    max_amount: 0.00
+    severity: WARNING
+    source: {clause: "§4.2", page: 15, text: "Delivery ... is included in the unit prices at no additional cost."}
+  - id: payment_terms
+    type: payment_terms_days
+    expected_days: 60
+    severity: WARNING
+    source: {clause: "§2.1", page: 4, text: "within sixty (60) days of the invoice date"}
+  - id: laptop_price_cap
+    type: unit_price_cap
+    sku: LAP-14-PRO
+    max_unit_price: 5720.00
+    severity: WARNING
+    source: {clause: "Annex A", page: 22, text: "LAP-14-PRO ... maximum SAR 5,720.00"}
+  - id: monitor_price_cap
+    type: unit_price_cap
+    sku: MON-27-4K
+    max_unit_price: 1595.00
+    severity: WARNING
+    source: {clause: "Annex A", page: 22, text: "MON-27-4K ... maximum SAR 1,595.00"}
+  - id: currency_sar
+    type: currency
+    expected: SAR
+    severity: WARNING
+    source: {clause: "Annex A", page: 22, text: "All prices are in Saudi Riyals (SAR)"}

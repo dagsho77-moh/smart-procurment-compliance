@@ -1,0 +1,10 @@
+# Runtime dependencies (all free / open source)
+openai>=1.40,<3          # OpenAI-compatible client for GitHub Models and Ollama
+PyYAML>=6.0
+pdfplumber>=0.11         # PDF text + page rendering (bundles pypdfium2)
+Pillow>=10.0
+reportlab>=4.0           # synthetic invoice PDF generation
+python-dotenv>=1.0
+
+# Optional: OCR fallback for scanned invoices (also needs the Tesseract binary + 'ara' language data)
+# pytesseract>=0.3.10

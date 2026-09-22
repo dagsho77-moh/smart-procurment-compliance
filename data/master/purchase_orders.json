@@ -1,0 +1,351 @@
+[
+  {
+    "po_number": "PO-2026-0001",
+    "vendor_id": "V-NCS",
+    "status": "OPEN",
+    "lines": [
+      {
+        "sku": "DOCK-USB-C",
+        "description": "USB-C docking station",
+        "quantity": 5,
+        "unit_price": "385.50"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0002",
+    "vendor_id": "V-RSO",
+    "status": "OPEN",
+    "lines": [
+      {
+        "sku": "CHR-ERGO",
+        "description": "Ergonomic office chair",
+        "quantity": 2,
+        "unit_price": "1150.00"
+      },
+      {
+        "sku": "DSK-160",
+        "description": "Desk 160cm, oak finish",
+        "quantity": 2,
+        "unit_price": "1890.00"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0003",
+    "vendor_id": "V-HFM",
+    "status": "OPEN",
+    "lines": [
+      {
+        "sku": "PRT-FILTER",
+        "description": "HVAC filter set",
+        "quantity": 2,
+        "unit_price": "212.40"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0004",
+    "vendor_id": "V-NCS",
+    "status": "OPEN",
+    "lines": [
+      {
+        "sku": "SSD-1TB",
+        "description": "NVMe SSD 1TB",
+        "quantity": 6,
+        "unit_price": "349.75"
+      },
+      {
+        "sku": "DOCK-USB-C",
+        "description": "USB-C docking station",
+        "quantity": 9,
+        "unit_price": "385.50"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0005",
+    "vendor_id": "V-RSO",
+    "status": "OPEN",
+    "lines": [
+      {
+        "sku": "CAB-3D",
+        "description": "Mobile cabinet, 3 drawers",
+        "quantity": 8,
+        "unit_price": "640.25"
+      },
+      {
+        "sku": "TBL-MTG-8",
+        "description": "Meeting table, 8 seats",
+        "quantity": 7,
+        "unit_price": "4275.00"
+      },
+      {
+        "sku": "CHR-ERGO",
+        "description": "Ergonomic office chair",
+        "quantity": 5,
+        "unit_price": "1150.00"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0006",
+    "vendor_id": "V-HFM",
+    "status": "OPEN",
+    "lines": [
+      {
+        "sku": "PRT-FILTER",
+        "description": "HVAC filter set",
+        "quantity": 9,
+        "unit_price": "212.40"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0007",
+    "vendor_id": "V-NCS",
+    "status": "OPEN",
+    "lines": [
+      {
+        "sku": "SSD-1TB",
+        "description": "NVMe SSD 1TB",
+        "quantity": 10,
+        "unit_price": "349.75"
+      },
+      {
+        "sku": "LAP-14-PRO",
+        "description": "Laptop 14in Pro, 32GB RAM",
+        "quantity": 4,
+        "unit_price": "5200.00"
+      },
+      {
+        "sku": "DOCK-USB-C",
+        "description": "USB-C docking station",
+        "quantity": 9,
+        "unit_price": "385.50"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0008",
+    "vendor_id": "V-RSO",
+    "status": "OPEN",
+    "lines": [
+      {
+        "sku": "CHR-ERGO",
+        "description": "Ergonomic office chair",
+        "quantity": 1,
+        "unit_price": "1150.00"
+      },
+      {
+        "sku": "DSK-160",
+        "description": "Desk 160cm, oak finish",
+        "quantity": 4,
+        "unit_price": "1890.00"
+      },
+      {
+        "sku": "CAB-3D",
+        "description": "Mobile cabinet, 3 drawers",
+        "quantity": 5,
+        "unit_price": "640.25"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0009",
+    "vendor_id": "V-NCS",
+    "status": "OPEN",
+    "lines": [
+      {
+        "sku": "LAP-14-PRO",
+        "description": "Laptop 14in Pro, 32GB RAM",
+        "quantity": 5,
+        "unit_price": "5200.00"
+      },
+      {
+        "sku": "SSD-1TB",
+        "description": "NVMe SSD 1TB",
+        "quantity": 2,
+        "unit_price": "349.75"
+      },
+      {
+        "sku": "DOCK-USB-C",
+        "description": "USB-C docking station",
+        "quantity": 3,
+        "unit_price": "385.50"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0010",
+    "vendor_id": "V-RSO",
+    "status": "OPEN",
+    "lines": [
+      {
+        "sku": "CHR-ERGO",
+        "description": "Ergonomic office chair",
+        "quantity": 7,
+        "unit_price": "1150.00"
+      },
+      {
+        "sku": "TBL-MTG-8",
+        "description": "Meeting table, 8 seats",
+        "quantity": 5,
+        "unit_price": "4275.00"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0011",
+    "vendor_id": "V-HFM",
+    "status": "OPEN",
+    "lines": [
+      {
+        "sku": "SVC-HVAC-PM",
+        "description": "HVAC preventive maintenance visit",
+        "quantity": 4,
+        "unit_price": "1800.00"
+      },
+      {
+        "sku": "PRT-FILTER",
+        "description": "HVAC filter set",
+        "quantity": 1,
+        "unit_price": "212.40"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0012",
+    "vendor_id": "V-NCS",
+    "status": "OPEN",
+    "lines": [
+      {
+        "sku": "MON-27-4K",
+        "description": "Monitor 27in 4K",
+        "quantity": 2,
+        "unit_price": "1450.00"
+      },
+      {
+        "sku": "LAP-14-PRO",
+        "description": "Laptop 14in Pro, 32GB RAM",
+        "quantity": 4,
+        "unit_price": "5200.00"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0013",
+    "vendor_id": "V-RSO",
+    "status": "OPEN",
+    "lines": [
+      {
+        "sku": "DSK-160",
+        "description": "Desk 160cm, oak finish",
+        "quantity": 8,
+        "unit_price": "1890.00"
+      },
+      {
+        "sku": "CAB-3D",
+        "description": "Mobile cabinet, 3 drawers",
+        "quantity": 7,
+        "unit_price": "640.25"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0014",
+    "vendor_id": "V-HFM",
+    "status": "OPEN",
+    "lines": [
+      {
+        "sku": "SVC-ELEC-HR",
+        "description": "Electrician, per hour",
+        "quantity": 6,
+        "unit_price": "145.00"
+      },
+      {
+        "sku": "SVC-PLUMB-HR",
+        "description": "Plumber, per hour",
+        "quantity": 7,
+        "unit_price": "135.00"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0015",
+    "vendor_id": "V-RSO",
+    "status": "OPEN",
+    "lines": [
+      {
+        "sku": "CHR-ERGO",
+        "description": "Ergonomic office chair",
+        "quantity": 3,
+        "unit_price": "1150.00"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0016",
+    "vendor_id": "V-HFM",
+    "status": "OPEN",
+    "lines": [
+      {
+        "sku": "SVC-PLUMB-HR",
+        "description": "Plumber, per hour",
+        "quantity": 8,
+        "unit_price": "135.00"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0017",
+    "vendor_id": "V-NCS",
+    "status": "OPEN",
+    "lines": [
+      {
+        "sku": "DOCK-USB-C",
+        "description": "USB-C docking station",
+        "quantity": 5,
+        "unit_price": "385.50"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0018",
+    "vendor_id": "V-RSO",
+    "status": "OPEN",
+    "lines": [
+      {
+        "sku": "CAB-3D",
+        "description": "Mobile cabinet, 3 drawers",
+        "quantity": 3,
+        "unit_price": "640.25"
+      },
+      {
+        "sku": "CHR-ERGO",
+        "description": "Ergonomic office chair",
+        "quantity": 8,
+        "unit_price": "1150.00"
+      },
+      {
+        "sku": "DSK-160",
+        "description": "Desk 160cm, oak finish",
+        "quantity": 1,
+        "unit_price": "1890.00"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0019",
+    "vendor_id": "V-NCS",
+    "status": "OPEN",
+    "lines": [
+      {
+        "sku": "LAP-14-PRO",
+        "description": "Laptop 14in Pro, 32GB RAM",
+        "quantity": 4,
+        "unit_price": "5200.00"
+      }
+    ]
+  }
+]

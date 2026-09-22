@@ -1,0 +1,30 @@
+{
+  "file": "021_security_unknown_vendor.pdf",
+  "file_sha256": "4470fc6e59797941dab4ddea98020e16f04a517aa5f8b3f7413f44acd913e0d0",
+  "doc_type": "invoice",
+  "scenario": "security_unknown_vendor",
+  "invoice": {
+    "invoice_number": "GPT-INV-0001",
+    "vendor_name": "Gulf Premium Trading Est.",
+    "vendor_tax_id": "311111111100003",
+    "invoice_date": "2026-04-05",
+    "due_date": "2026-04-20",
+    "po_number": null,
+    "currency": "SAR",
+    "subtotal": "2340.00",
+    "shipping_fee": "0.00",
+    "tax_amount": "351.00",
+    "total": "2691.00",
+    "iban": "SA9020000055500011122233",
+    "notes": null,
+    "line_items": [
+      {
+        "sku": "GEN-SUP",
+        "description": "General office supplies bundle",
+        "quantity": 3,
+        "unit_price": "780.00",
+        "line_total": "2340.00"
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "file": "007_clean.pdf",
+  "file_sha256": "7bdffaede8cc2fae3f91278e63e7c839776df0691ebf402f734aa3ce5fa84fac",
+  "doc_type": "invoice",
+  "scenario": "clean",
+  "invoice": {
+    "invoice_number": "NCS-INV-0003",
+    "vendor_name": "Najd Computer Supplies Co.",
+    "vendor_tax_id": "300123456700003",
+    "invoice_date": "2026-03-14",
+    "due_date": "2026-05-13",
+    "po_number": "PO-2026-0007",
+    "currency": "SAR",
+    "subtotal": "15896.50",
+    "shipping_fee": "0.00",
+    "tax_amount": "2384.48",
+    "total": "18280.98",
+    "iban": "SA0380000000608010167519",
+    "notes": null,
+    "line_items": [
+      {
+        "sku": "SSD-1TB",
+        "description": "NVMe SSD 1TB",
+        "quantity": 8,
+        "unit_price": "349.75",
+        "line_total": "2798.00"
+      },
+      {
+        "sku": "LAP-14-PRO",
+        "description": "Laptop 14in Pro, 32GB RAM",
+        "quantity": 2,
+        "unit_price": "5200.00",
+        "line_total": "10400.00"
+      },
+      {
+        "sku": "DOCK-USB-C",
+        "description": "USB-C docking station",
+        "quantity": 7,
+        "unit_price": "385.50",
+        "line_total": "2698.50"
+      }
+    ]
+  }
+}

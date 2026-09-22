@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.import_linter_cache/
+
+# Secrets
+.env
+
+# Runtime artefacts (registry, traces, LLM cache, search index)
+data/runtime/*
+!data/runtime/.gitkeep
+reports/*
+!reports/.gitkeep
+
+# LLM-drafted rules are reviewed locally before promotion
+data/contracts/rules/draft/*
+!data/contracts/rules/draft/.gitkeep
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

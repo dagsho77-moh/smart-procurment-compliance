@@ -1,0 +1,30 @@
+{
+  "file": "001_clean.pdf",
+  "file_sha256": "62aeacbdf2dae16a90ef13f7939112ef8c7b746504fad3518c33d0a8a4a76f40",
+  "doc_type": "invoice",
+  "scenario": "clean",
+  "invoice": {
+    "invoice_number": "NCS-INV-0001",
+    "vendor_name": "Najd Computer Supplies Co.",
+    "vendor_tax_id": "300123456700003",
+    "invoice_date": "2026-03-02",
+    "due_date": "2026-05-01",
+    "po_number": "PO-2026-0001",
+    "currency": "SAR",
+    "subtotal": "1927.50",
+    "shipping_fee": "0.00",
+    "tax_amount": "289.13",
+    "total": "2216.63",
+    "iban": "SA0380000000608010167519",
+    "notes": null,
+    "line_items": [
+      {
+        "sku": "DOCK-USB-C",
+        "description": "USB-C docking station",
+        "quantity": 5,
+        "unit_price": "385.50",
+        "line_total": "1927.50"
+      }
+    ]
+  }
+}
