@@ -1,0 +1,14 @@
+# Local simulation of identity governance (replace with real IdP in production).
+#   procurement -> may submit invoices
+#   cfo         -> the ONLY role that may record a payment decision
+#   analyst     -> may review/promote drafted contract rules
+users:
+  procurement.clerk@company.example:
+    name: Procurement Clerk
+    roles: [procurement]
+  finance.analyst@company.example:
+    name: Finance Analyst
+    roles: [analyst]
+  cfo@company.example:
+    name: Chief Financial Officer
+    roles: [cfo]

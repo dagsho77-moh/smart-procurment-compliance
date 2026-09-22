@@ -1,0 +1,65 @@
+# Invoice Guard configuration. All thresholds are tunable without code changes.
+currency: SAR
+vat_rate: 0.15
+
+# Gora's rule #2 - rounding tolerance.
+# A difference passes if |expected - actual| <= min(max_tolerance,
+#                                             max(absolute_tolerance, relative_tolerance * |expected|)).
+# Differences that pass but are non-zero are still recorded as INFO in the audit trail.
+math_check:
+  decimals: 2
+  absolute_tolerance: 0.05        # SAR
+  relative_tolerance: 0.0001      # 0.01 % of the compared amount (large invoices)
+  max_tolerance: 1.00             # hard cap in SAR, however large the invoice
+  line_absolute_tolerance: 0.01   # per line: quantity x unit_price vs line_total
+
+duplicate_check:
+  fuzzy_date_window_days: 30
+  invoice_number_similarity: 0.85 # difflib ratio on normalised invoice numbers
+  amount_tolerance: 0.05          # SAR
+
+po_matching:
+  default_price_tolerance_pct: 0.0
+  quantity_tolerance: 0
+  require_goods_receipt: true     # three-way match: invoice / PO / goods receipt
+  balance_tolerance: 0.05         # SAR
+
+policy:
+  # Internal spending policy: invoices above this amount need a PO (prior authorisation).
+  preapproval_required_above: 10000.00
+
+llm:
+  provider: github                # overridden by the LLM_PROVIDER env var
+  github_endpoint: https://models.github.ai/inference
+  ollama_endpoint: http://localhost:11434/v1
+  vision_model: openai/gpt-4o-mini
+  text_model: openai/gpt-4o-mini
+  ollama_vision_model: llama3.2-vision
+  ollama_text_model: llama3.2-vision
+  temperature: 0
+  max_retries: 5
+  min_seconds_between_calls: 4.0  # stay under free-tier per-minute limits
+  request_timeout: 90
+  cache_responses: true
+
+knowledge:
+  advisory_review: true           # Knowledge Agent adds advisory (never blocking) flags
+  top_k: 4
+
+ingestion:
+  max_pages: 3
+  render_dpi: 150
+  ocr_enabled: false              # needs pytesseract + Tesseract 'ara+eng'
+  ocr_languages: ara+eng
+
+paths:
+  master_dir: data/master
+  contracts_raw_dir: data/contracts/raw
+  rules_draft_dir: data/contracts/rules/draft
+  rules_approved_dir: data/contracts/rules/approved
+  policies_dir: data/policies
+  synthetic_dir: data/synthetic_invoices
+  runtime_dir: data/runtime
+  reports_dir: reports
+  prompts_dir: config/prompts
+  users_file: config/users.yaml
